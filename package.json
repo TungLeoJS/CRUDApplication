@@ -1,0 +1,29 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "Simple CRUD Application using Nodejs, Express, MongoDB\r I'm a beginner in Nodejs, i have learned Nodejs for 4 months. Today I want to learn about Express and MongoDB. So I create a simple CRUD Application which using ExpressJS, MongoDB to learn about how to work with the sever and client side and understand how to create an API, how to make an Ajax request as well as understand how to work with library, working with template engine like ejs and working with different http methods.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TungLeoJS/CRUDApplication.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TungLeoJS/CRUDApplication/issues"
+  },
+  "homepage": "https://github.com/TungLeoJS/CRUDApplication#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.7",
+    "morgan": "^1.10.0"
+  }
+}
